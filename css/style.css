@@ -36,10 +36,20 @@ body {
 }
 
 html {
-    font-family: 'Noto Sans SC Sliced', PingFangSC-Light, Microsoft YaHei UI, Microsoft YaHei, helvetica, sans-serif;
-    font-weight: 300;
+    font-family: 'Youyuan', PingFangSC-Light, Microsoft YaHei UI, Microsoft YaHei, helvetica, sans-serif;
+    font-weight: 350;
     color: #fff;
 }
+
+@font-face{
+    font-family:'Youyuan' ;  /* 字体名自定义即可 */
+    src:url('https://cdn.jsdelivr.net/gh/hacamer/hacamer.github.io@master/2.woff'); /* 字体文件路径 */
+    font-display : swap;
+  }
+  
+  h1#site-title {
+    font-family: 'Youyuan', sans-serif;
+  }
 
 /*form,
 input,
